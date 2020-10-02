@@ -1,6 +1,5 @@
 #include "Engine.h"
 
-//https://www.youtube.com/watch?v=pn9oL7mqj1g&list=PL-K0viiuJ2RctP5nlJlqmHGeh66-GOZR_&index=5
 
 int main(int argc, char* args [])
 {
