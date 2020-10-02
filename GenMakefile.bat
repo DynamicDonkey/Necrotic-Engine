@@ -1,0 +1,1 @@
+"C:\Program Files\CodeBlocks\cbp2make.exe" -in C:\Users\dynam\Documents\SoftEngineProject\SoftEngine\SoftEngine.cbp --all-os -out Makefile.win
