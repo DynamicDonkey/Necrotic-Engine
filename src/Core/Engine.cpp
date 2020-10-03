@@ -2,7 +2,7 @@
 
 #include "Engine.h"
 #include "TextureManager.h"
-
+#include "Transform.h"
 
 Engine* Engine::s_Instance = nullptr;
 
@@ -34,6 +34,7 @@ bool Engine::Init()
     }
 
     TextureManager::GetInstance()->Load("grass", "assets/gfx/ground_grass_1.png");
+
     return m_IsRunning = true;
 }
 

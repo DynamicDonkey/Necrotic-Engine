@@ -14,7 +14,6 @@
 				<Compiler>
 					<Add option="-std=c++17" />
 					<Add option="-g" />
-					<Add directory="src/Engine" />
 					<Add directory="src/Core" />
 					<Add directory="D:/Libraries/SDL2/include" />
 					<Add directory="src/Graphics" />
@@ -32,7 +31,6 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-std=c++17" />
-					<Add directory="src/Engine" />
 					<Add directory="src/Core" />
 					<Add directory="D:/Libraries/SDL2/include" />
 					<Add directory="src/Graphics" />
@@ -49,8 +47,8 @@
 			<Add option="-std=c++17" />
 			<Add option="-fexceptions" />
 			<Add directory="D:/Libraries/SDL2/include" />
-			<Add directory="src/Engine" />
 			<Add directory="src/Core" />
+			<Add directory="src/Graphics" />
 		</Compiler>
 		<Linker>
 			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image" />
